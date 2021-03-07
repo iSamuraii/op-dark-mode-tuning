@@ -1,0 +1,52 @@
+body when (@config-dark-mode = true) {
+  a {
+    color: #f2f2f2;
+  }
+
+  a:hover,
+  a:active,
+  a:focus {
+    color: #f5f5f5;
+  }
+
+  .App-header .Button,
+  .App-header .Search-input,
+  .NotificationsDropdown .Dropdown-toggle.new .Button-icon,
+  .Button--primary {
+    color: #808080;
+  }
+
+  .App-header .Button:active,
+  .App-header .Button.active,
+  .App-header .Button:focus,
+  .App-header .Button.focus,
+  .App-header .Button:hover,
+  .App-header .FormControl:focus,
+  .App-header .open > .Dropdown-toggle.Button {
+    color: #f2f2f2;
+  }
+
+  .PostMention:hover, .UserMention:hover, .PostMention:active, .UserMention:active {
+    color: #f2f2f2;
+  }
+  
+  .App-primaryControl > .Button,
+  .App-titleControl > .Button,
+  .App-backControl > .Button {
+    color: #808080 !important;
+  }
+
+  .NotificationsDropdown-unread {
+    background: #808080;
+  }
+
+  .new .NotificationsDropdown-unread {
+    background: #f5f5f5;
+  }
+
+  .ComposerBody-header h3,
+  .sideNav .Dropdown--select .Dropdown-menu > li > a:hover,
+  .sideNav .Dropdown--select .Dropdown-menu > li.active > a {
+    color: #f2f2f2;
+  }
+}
